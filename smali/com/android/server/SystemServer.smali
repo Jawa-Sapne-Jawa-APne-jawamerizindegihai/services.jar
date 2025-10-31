@@ -18618,16 +18618,7 @@
     .line 4535
     .line 4536
     .line 4537
-    invoke-static {}, Landroid/os/FactoryTest;->isFactoryBinary()Z
-
-    .line 4538
-    .line 4539
-    .line 4540
-    move-result v0
-
-    .line 4541
-    if-nez v0, :cond_3b
-
+    goto :cond_3b
     .line 4542
     .line 4543
     const-string/jumbo v0, "StartKnoxGuard"
